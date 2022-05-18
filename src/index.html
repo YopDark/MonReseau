@@ -7,35 +7,163 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <header class="topbar">
+    <a href="#" class="topbar-logo">Logo</a>
+    <nav class="topbar-nav">
+      <a href="#">Accueil</a>
+      <a href="#" class="active">Historique</a>
+      <a href="#">Evènements</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+<div class="container site">
+  <nav class="sidebar">
+    <a href="#" class="sidebar-home active">Fil d'actualité</a>
+    <a href="#" class="sidebar-message">Messages</a>
+    <a href="#" class="sidebar-event">Evenement</a>
+    <a href="#" class="sidebar-group">Groupes</a>
+    <a href="#" class="sidebar-friend">Amis</a>
+  </nav>
+  <div class="main">
+    <article class="card">
+      <header class="card-header card-header-avatar">
+        <img src="img/avatar.png" width="45" height="45" class="card-avatar">
+        <div class="card-title">Mon Pseudo</div>
+        <div class="card-date">Il y a 10 min</div>
+      </header>
+      <div class="card-body">
+        <p>
+          <img src="img/image.jpg" alt="Paysage" class="fullwidth">
+        </p>
+        <p>
+          Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
+        </p>
+        <p>
+          I'm sure those windmills will keep them cool. Who am I making this out to? Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Whoa a real live robot; or is that some kind of cheesy New Year's costume?
+        </p>
+      </div>
+      <footer class="card-footer">
+        <a class="card-like" href="#">120 pouces</a>
+        <a class="card-comments" href="#">12 commentaires</a>
+      </footer>
+    </article>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <article class="card">
+      <header class="card-header card-header-avatar">
+        <img src="img/avatar.png" width="45" height="45" class="card-avatar">
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+        <div class="card-title">Mon Pseudo</div>
+        <div class="card-date">Il y a 10 min</div>
+      </header>
+      <div class="card-body">
+
+        <p>
+          Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
+        </p>
+        <p>
+          I'm sure those windmills will keep them cool. Who am I making this out to? Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Whoa a real live robot; or is that some kind of cheesy New Year's costume?
+        </p>
+      </div>
+      <footer class="card-footer">
+        <a class="card-like" href="#">120 pouces</a>
+        <a class="card-comments" href="#">12 commentaires</a>
+      </footer>
+    </article>
+
+    <article class="card">
+      <header class="card-header ">
+        <div class="card-title">Mon Pseudo</div>
+        <div class="card-date">Il y a 10 min</div>
+      </header>
+      <div class="card-body">
+        <p>
+          <img src="img/image.jpg" alt="Paysage" class="fullwidth">
+        </p>
+        <p>
+          Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
+        </p>
+        <p>
+          I'm sure those windmills will keep them cool. Who am I making this out to? Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Whoa a real live robot; or is that some kind of cheesy New Year's costume?
+        </p>
+      </div>
+      <footer class="card-footer">
+        <a class="card-like" href="#">120 pouces</a>
+        <a class="card-comments" href="#">12 commentaires</a>
+      </footer>
+    </article>
+  </div>
+  <aside class="aside">
+    <article class="card">
+      <header class="card-header card-header-avatar">
+        <img src="img/avatar.png" width="45" height="45" class="card-avatar">
+
+        <div class="card-title">Mon Pseudo</div>
+        <div class="card-date">Il y a 10 min</div>
+      </header>
+      <div class="card-body">
+        <p>
+          Oh right. I forgot about the battle. I just told you! You've killed me! You don't know how to do any of those. Hey, you add a one and two zeros to that or we walk! No! Don't jump!
+        </p>
+      </div>
+    </article>
+
+    <div class="sidebar-title">Suggestion</div>
+    <div class="friends-list">
+      <div class="friend">
+        <img class="friend-avatar" src="https://via.placeholder.com/73x73" alt="">
+        <div class="friend-body">
+          <a class="friend-name" href="#">John Doe</a>
+          <div class="friend-connection">15 amis mutuels</div>
+          <a href="#" class="friend-add">Ajouter un amis</a>
+        </div>
+      </div>
+
+      <div class="friend">
+        <img class="friend-avatar" src="https://via.placeholder.com/73x73" alt="">
+        <div class="friend-body">
+          <a class="friend-name" href="#">John Doe</a>
+          <div class="friend-connection">15 amis mutuels</div>
+          <a href="#" class="friend-add">Ajouter un amis</a>
+        </div>
+      </div>
+
+      <div class="friend">
+        <img class="friend-avatar" src="https://via.placeholder.com/73x73" alt="">
+        <div class="friend-body">
+          <a class="friend-name" href="#">John Doe</a>
+          <div class="friend-connection">15 amis mutuels</div>
+          <a href="#" class="friend-add">Ajouter un amis</a>
+        </div>
+      </div>
+
+      <div class="friend">
+        <img class="friend-avatar" src="https://via.placeholder.com/73x73" alt="">
+        <div class="friend-body">
+          <a class="friend-name" href="#">John Doe</a>
+          <div class="friend-connection">15 amis mutuels</div>
+          <a href="#" class="friend-add">Ajouter un amis</a>
+        </div>
+      </div>
+
+      <div class="friend">
+        <img class="friend-avatar" src="https://via.placeholder.com/73x73" alt="">
+        <div class="friend-body">
+          <a class="friend-name" href="#">John Doe</a>
+          <div class="friend-connection">15 amis mutuels</div>
+          <a href="#" class="friend-add">Ajouter un amis</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+  </div>
+
+</div>
+
 </body>
 
 </html>
